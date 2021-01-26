@@ -1,0 +1,60 @@
+#title {
+  font-family: sans-serif;
+  background-color: red;
+  margin: auto;
+  height: 30px;
+  padding: 20px;
+}
+
+#title > a {
+  float: right;
+  font-weight: bold;
+}
+
+#title > a:link {
+  color: white;
+}
+
+#title > a:visited {
+  color: black;
+}
+
+#title-text {
+  color: white;
+  font-weight: bolder;
+  font-size: 22pt;
+  float: left;
+}
+
+nav {
+  height: 30px;
+  margin: auto;
+  background-color: darkslategray;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+nav > a {
+  float: right;
+  margin: 10px;
+}
+
+nav > a:link {
+  color: white;
+}
+
+#body {
+  max-width: 70%;
+}
+
+#body > img {
+  width: 80%;
+  margin: auto;
+  float: left;
+}
+
+#thumbnails {
+  float: right;
+  width: 30%;
+  background-color: gray;
+}
